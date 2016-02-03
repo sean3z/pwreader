@@ -1,0 +1,36 @@
+/* Empty. Add your own CSS if you like */
+.list-item a {
+	overflow: initial;
+	text-overflow: initial; 
+	white-space: normal; 
+}
+
+.dotnet a {
+  color: #51a0e2 !important;
+}
+
+.pwtorch a {
+  color: #c72f2f !important;
+}
+
+small {
+  color: #999;
+}
+
+.nav-bar-title img.pwtorch {
+  margin-top: 9px;
+  height: 50%;
+}
+
+.nav-bar-title img.dotnet {
+  width: 90%;
+  margin-top: 12px;
+}
+
+.article {
+  padding: 20px;
+}
+
+.bar .title {
+  width: 70%;
+}

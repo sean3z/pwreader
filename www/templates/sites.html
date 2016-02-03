@@ -1,0 +1,13 @@
+<ion-view class="{{sitesCtrlVm.site}}">
+	<ion-nav-title>
+  	<img src="img/{{sitesCtrlVm.site}}.png" class="{{sitesCtrlVm.site}}">
+  </ion-nav-title>
+  <ion-content>
+    <ion-list>
+      <ion-item class="list-item" ng-repeat="article in sitesCtrlVm.articles" href="#/app/articles/{{$index}}">
+        {{article.title}}<br />
+        <small>{{article.pubDate}}</small>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
